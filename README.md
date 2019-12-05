@@ -9,6 +9,8 @@ Esta es una propuesta organizacional y metodológica para la recientemente cread
 Se puede encontrar el pdf de la propuesta [aquí](https://github.com/agucova/propuesta-acic/raw/master/main.pdf) y una previsualización [aquí.](main.pdf)
 
 Adicionalmente, se puede encontrar el borrador del código de conducta [aquí](conducta.md).
+
+
 <a href="https://github.com/agucova/propuesta-acic/raw/master/main.pdf">
-<img src="https://github.com/agucova/propuesta-acic/raw/master/Figuras/propuesta.png" align="left" style="margin-top: 25px" width="500">
+<img src="https://github.com/agucova/propuesta-acic/raw/master/Figuras/propuesta.png" align="left" width="500">
 </a>
