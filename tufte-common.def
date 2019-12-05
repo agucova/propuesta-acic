@@ -343,8 +343,8 @@
 
 \newcommand{\TufteLoadHyperref}{%
   \ifthenelse{\boolean{@tufte@xetex}}
-    {\RequirePackage[unicode,hyperfootnotes=false,xetex]{hyperref}}
-    {\RequirePackage[unicode,hyperfootnotes=false]{hyperref}}
+    {\RequirePackage[unicode,hyperfootnotes=false,xetex,colorlinks=true]{hyperref}}
+    {\RequirePackage[unicode,hyperfootnotes=false,colorlinks=true]{hyperref}}
   \hypersetup{%
     pdfborder = {0 0 0},
     bookmarksdepth = section,

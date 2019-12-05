@@ -19,26 +19,25 @@
 \usepackage[utf8]{inputenc}
 \usepackage[spanish]{babel}
 \usepackage[autostyle]{csquotes}
+\usepackage{graphicx} % Imágenes
 
+\setkeys{Gin}{width=\linewidth, totalheight=\textheight, keepaspectratio} % Ajustes defecto imágenes
+\graphicspath{{Figuras/}{./}} % Directorio imágenes
 
-\usepackage{graphicx} % Required for including images
-\setkeys{Gin}{width=\linewidth, totalheight=\textheight, keepaspectratio} % Default images settings
-\graphicspath{{Figuras/}{./}} % Specifies where to look for included images (trailing slash required)
+\usepackage{amsmath, amsfonts, amssymb, amsthm} % Ecuaciones y símbolos
+\usepackage{units} % Unidades
 
-\usepackage{amsmath, amsfonts, amssymb, amsthm} % For math equations, theorems, symbols, etc
-\usepackage{units} % Non-stacked fractions and better unit spacing
-
-\usepackage{booktabs} % Required for better horizontal rules in tables
+\usepackage{booktabs} % Lineas en Tablas
 
 \title{Propuesta Organizacional para A.C.I.C.}
 
 \author{Agustín Covarrubias}
 
-\date{\today} % Date, use \date{} for no date
+\date{\today}
 
 \begin{document}
 
-\maketitle % Print the title section
+\maketitle
 \begin{abstract}
 	\textbf{Resumen:}
 	Distingo entre dos tipos de actividades de la Asamblea, \textit{Gobernanza}, el acto de establecer objetivos y hacer y evolucionar decisiones que guían a la asamblea hacia ellos, y \textit{Operaciones}, el trabajo y organización de actividades del día a día, según las restricciones definidas a través de la Gobernanza, con tal de alcanzar tales objetivos. Por un lado, la Gobernanza se da mediante reuniones abiertas, sean virtuales o presenciales, con toma de decisiones a través de votaciones (descritas abajo). Las Operaciones, por el otro lado, se dan en \textit{comisiones} semi-autónomas y auto gobernadas de gente en un área específica, y una pareja de \textit{delegados} en cada comisión que forman parte a su vez de una mayor \textit{comisión de operaciones}, que toma las decisiones generales (del día a día) sobre la Asamblea. (Un modelo en base a patrones de Sociocracia 3.0\sidenote[][-75pt]{Sociocracia 3.0 es un conjunto de principios y \textit{patrones} para organizaciones de todo tipo que facilitan la formación de jerarquías (o heterarquías) transparentes, democráticas y eficientes, entre otras cosas. Se puede encontrar un resumen de alto nivel \href{https://sociocracy30.org/_res/posters/S3-Intro-Course-Posters-es.pdf}{\textbf{aquí.}}})
@@ -68,11 +67,14 @@ Debido a que no tenemos un método eficiente para nominar y votar por integrante
 
 A futuro probablemente sería necesario añadir procedimientos de vetado o elección para los/as integrantes, especialmente en las comisiones, dado que tienen capacidad de autogobernabilidad, lo que se describe mas adelante.
 
+Todos/as los/as asambleistas deben seguir el \href{https://github.com/agucova/propuesta-acic/blob/master/conducta.md}{\textbf{Código de Conducta}}, un documento que busca establecer principios mínimos de inclusión y diversidad, al igual que un protocolo inicial para el acoso y otros comportamientos inaceptables. El código está adaptado del \textit{Contributor Covenant} versión 2.0, y se puede encontrar \href{https://github.com/agucova/propuesta-acic/blob/master/conducta.md}{aquí.}
+
 \section{Gobernanza y Operaciones}\label{sec:gobyop}
 Debido a que la Asamblea es una organización esencialmente abierta y sin un liderazgo representativo, surge la necesidad de establecer un mecanismo por el cual sea posible tanto tomar decisiones como ejecutar las tareas que ellas conllevan (como escribir declaraciones, montar redes sociales, o sistematizar conclusiones).
 
 Ahora mismo trabajamos en comisiones que se ven obligadas a tomar decisiones durante el día a día, sea por personalidades dominantes, voceros/as definidos/as o consenso entre los miembros. Esto es insostenible, debido a que carece de una conexión clara (y democrática) con los/as integrantes de la Asamblea, y es un punto de roce importante en como trabajamos en nuestras actividades.
 
+\pagebreak
 Aprovechando uno de los patrones de sociocracia 3.0, propongo en segmentar la toma de decisiones y el trabajo en dos áreas no del todo excluyentes, \textit{Gobernanza} y \textit{Operaciones}. Traduzco\cite{gobernanzayoperaciones}:
 
 \begin{displayquote}
@@ -144,7 +146,7 @@ Esto no significa que estén 100\% de acuerdo, sino que consideran la moción lo
 	\label{fig:consenso}
 \end{marginfigure}
 
-Finalmente, a través del mismo consenso, cada comisión elige una pareja (preferiblemente paritaria) de delegados, renovada reunión por medio, que participa en representación de su comisión en la \textbf{comisión de operaciones}, una comisión (fig. 3) mayor reuniendo a delegados de todas las comisiones, y que por tanto toma decisiones operacionales que afecten múltiples áreas o comisiones, al igual que mociones que requieren atención o retroalimentación de todos y todas, sin poder negar aquellas atribuciones de Gobernanza. Es importante aclarar que los delegados no tienen ninguna autoridad interna por sobre los otros integrantes de su comisión, sino que buscan llevar y representar el cuerpo de acuerdos propio en la comisión de operaciones.
+A través del mismo consenso, cada comisión elige una pareja (preferiblemente paritaria) de delegados, renovada reunión por medio, que participa en representación de su comisión en la \textbf{comisión de operaciones}, una comisión (fig. 3) mayor reuniendo a delegados de todas las comisiones, y que por tanto toma decisiones operacionales que afecten múltiples áreas o comisiones, al igual que mociones que requieren atención o retroalimentación de todos y todas, sin poder negar aquellas atribuciones de Gobernanza. Es importante aclarar que los delegados no tienen ninguna autoridad interna por sobre los otros integrantes de su comisión, sino que buscan llevar y representar el cuerpo de acuerdos propio en la comisión de operaciones.
 
 \begin{marginfigure}[-200px]
 	\includegraphics[width=\linewidth]{jerarquia.png}
@@ -153,7 +155,7 @@ Finalmente, a través del mismo consenso, cada comisión elige una pareja (prefe
 \end{marginfigure}
 
 
-\nobibliography{biblio} % Use \nobibliography{<bib file>} if you have references but don't want to print a bibliography
+\nobibliography{biblio}
 
 \bibliographystyle{apa}
 
