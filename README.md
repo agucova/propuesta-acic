@@ -2,11 +2,11 @@
 
 <img src="https://github.com/agucova/propuesta-acic/raw/master/Figuras/logo-1.png" width="200" align="left" style="margin-right: 25px"> 
 
-Esta es una propuesta organizacional y metodológica para la recientemente creada Asamblea por el Conocimiento y la Investigación Chile. 
+Esta es una **propuesta organizacional y metodológica** para la recientemente creada *Asamblea por el Conocimiento y la Investigación Chile.* 
 
-> La propuesta sigue abierta a sugerencias, correciones o cambios (si eres familiar con LaTeX y GitHub, puedes crear un pull request, sino puedes enviarme un [mail](mailto:agucova@gmail.com)).
+Se puede encontrar el PDF de la propuesta [aquí](https://github.com/agucova/propuesta-acic/raw/master/main.pdf) y una previsualización [aquí.](main.pdf)
 
-Se puede encontrar el pdf de la propuesta [aquí](https://github.com/agucova/propuesta-acic/raw/master/main.pdf) y una previsualización [aquí.](main.pdf)
+La propuesta sigue abierta a sugerencias, correciones o cambios (si eres familiar con LaTeX y GitHub, puedes crear un pull request, sino puedes enviarme un [mail](mailto:agucova@gmail.com)).
 
 Adicionalmente, se puede encontrar el borrador del código de conducta [aquí](conducta.md).
 <a href="https://github.com/agucova/propuesta-acic/raw/master/main.pdf">
