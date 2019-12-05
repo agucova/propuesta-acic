@@ -10,7 +10,5 @@ Se puede encontrar el pdf de la propuesta [aquí](https://github.com/agucova/pro
 
 Adicionalmente, se puede encontrar el borrador del código de conducta [aquí](conducta.md).
 <a href="https://github.com/agucova/propuesta-acic/raw/master/main.pdf">
-<p align="center">
-<img src="https://github.com/agucova/propuesta-acic/raw/master/Figuras/propuesta.png" width="500">
-</p>
+<img src="https://github.com/agucova/propuesta-acic/raw/master/Figuras/propuesta.png" align="left" style="margin-top: 25px" width="500">
 </a>
